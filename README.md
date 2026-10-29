@@ -1,4 +1,5 @@
 # Salary Prediction with Multiple Linear Regression
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 โปรเจกต์สาธิตการสร้างโมเดล Machine Learning ด้วย Python และ Scikit-Learn เพื่อทำนายเงินเดือนพนักงานจากปัจจัยด้านประสบการณ์ วุฒิการศึกษา และทักษะภาษาอังกฤษ พร้อมแสดงผลการประเมินโมเดลผ่านกราฟเปรียบเทียบ
 ## 🚀 Features
@@ -17,13 +18,14 @@
 
 ### Prerequisites
 ตรวจสอบให้แน่ใจว่าได้ติดตั้ง Python ไว้ในเครื่องแล้ว จากนั้นติดตั้งไลบรารีที่จำเป็น:
+
 ```bash
 pip install pandas scikit-learn matplotlib
 
 ## Installation and running
 - โคลนโปรเจกต์นี้ลงในเครื่องของคุณ หรือคัดลอกโค้ดไปรันใน Jupyter Notebook / Google Colab
 - รันสคริปต์เพื่อสร้างโมเดลและแสดงผลการทำนาย
-python model.py
+python multiple_regression.py
 
 📖 Usage
 ตัวอย่างโค้ดส่วนหนึ่งในการเรียกใช้งานโมเดลเพื่อทำนายเงินเดือนสำหรับพนักงานใหม่:
